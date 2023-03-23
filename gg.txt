@@ -1,0 +1,2 @@
+$TOKEN="k7DuoeF9B8E"
+Invoke-WebRequest -Method POST -Uri 'https://streamlabs.com/api/v1.0/donations' -Body "name=SUN&identifier=bar&amount=999999&currency=THB&access_token=$TOKEN" -UseBasicParsing
